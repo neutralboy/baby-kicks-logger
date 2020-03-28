@@ -1,3 +1,12 @@
 $navbar-background-color: black;
 @import '../main.scss';
 @import "~bulma/sass/components/navbar.sass";
+
+.navbar-item{
+    span{
+        margin-right: 0.4rem;
+    }
+    .button{
+        margin-right: 0.6rem;
+    }
+}

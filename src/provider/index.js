@@ -4,8 +4,11 @@ import Text from '../text';
 import Prompter from '../prompter';
 
 const initialState = {
-    display: <Text />,
-    mainText: "MAIN TEXTX"
+    display: <Prompter />,
+    mainText: "MAIN TEXTX",
+    scrollIncrement: 100,
+    fontSize: 3,
+    mirror: false
 }
 
 const MainContext = React.createContext();
@@ -23,7 +26,12 @@ const reducer = (state, action) =>{
             }else{
                 return { ...state, display: <Prompter /> }
             }
-            
+        case "FONT_SIZE_CHANGE":
+            return { ...state, fontSize: action.payload }
+        case "SCROLL_INCREMENT":
+            return {...state, scrollIncrement: action.payload}
+        case "MIRROR":
+            return { ...state, mirror: !state.mirror }
         default:
             return state;
     }

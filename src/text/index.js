@@ -19,7 +19,14 @@ const Text = () => {
                             <div className={styles.control}>
                                 <MainContext.Consumer>
                                     {
-                                        ({ state, dispatch }) => <textarea value={state.mainText} placeholder="Paste your script here" onChange={(event)=>dispatch({type:"SET_TEXT", payload:event.target.value})} id="text" className={` ${styles.textarea} ${styles['is-fullwidth']} `} />
+                                        ({ state, dispatch }) => <textarea
+                                         value={state.mainText}
+                                          placeholder="Paste your script here"
+                                           onChange={(event)=>dispatch({type:"SET_TEXT", payload:event.target.value})} 
+                                           id="text"
+                                            className={` ${styles.textarea} ${styles['is-fullwidth']} `}
+                                            name="multiliner"
+                                            />
                                     }
                                     
                                 </MainContext.Consumer>
