@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/teleprompter/static/css/main.a195e32d.chunk.css",
-    "main.js": "/teleprompter/static/js/main.7fa00ed2.chunk.js",
-    "main.js.map": "/teleprompter/static/js/main.7fa00ed2.chunk.js.map",
+    "main.js": "/teleprompter/static/js/main.c750855b.chunk.js",
+    "main.js.map": "/teleprompter/static/js/main.c750855b.chunk.js.map",
     "runtime-main.js": "/teleprompter/static/js/runtime-main.4e884d24.js",
     "runtime-main.js.map": "/teleprompter/static/js/runtime-main.4e884d24.js.map",
     "static/js/2.aefbcc7b.chunk.js": "/teleprompter/static/js/2.aefbcc7b.chunk.js",
     "static/js/2.aefbcc7b.chunk.js.map": "/teleprompter/static/js/2.aefbcc7b.chunk.js.map",
     "index.html": "/teleprompter/index.html",
-    "precache-manifest.fb715618b5745ce1245d636d07a7d475.js": "/teleprompter/precache-manifest.fb715618b5745ce1245d636d07a7d475.js",
+    "precache-manifest.970d717c49c5187f570b3ef7f56b3750.js": "/teleprompter/precache-manifest.970d717c49c5187f570b3ef7f56b3750.js",
     "service-worker.js": "/teleprompter/service-worker.js",
     "static/css/main.a195e32d.chunk.css.map": "/teleprompter/static/css/main.a195e32d.chunk.css.map",
     "static/js/2.aefbcc7b.chunk.js.LICENSE.txt": "/teleprompter/static/js/2.aefbcc7b.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.4e884d24.js",
     "static/js/2.aefbcc7b.chunk.js",
     "static/css/main.a195e32d.chunk.css",
-    "static/js/main.7fa00ed2.chunk.js"
+    "static/js/main.c750855b.chunk.js"
   ]
 }
